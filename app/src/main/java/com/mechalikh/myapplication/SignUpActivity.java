@@ -9,8 +9,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.myapplication.articleslist.JewelryListActivity;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -77,7 +75,7 @@ public class SignUpActivity extends HttpActivity {
                 editor.apply();
 
                 // Start HomeActivity
-                Intent intent = new Intent(SignUpActivity.this, JewelryListActivity.class);
+                Intent intent = new Intent(SignUpActivity.this, HomeActivity.class);
                 startActivity(intent);
                 finish();
             } else {

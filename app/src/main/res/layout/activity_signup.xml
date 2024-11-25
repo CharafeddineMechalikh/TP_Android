@@ -4,7 +4,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp">
-
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        />
+    <EditText
+        android:id="@+id/family_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Family Name"
+        />
     <EditText
         android:id="@+id/email"
         android:layout_width="match_parent"
